@@ -7,10 +7,10 @@
 #
 Pod::Spec.new do |s|
   s.name         = "UMengAnalyticsFramework"
-  s.version      = "4.2.7"
+  s.version      = "4.2.8"
   s.summary      = "This is a dynamic framework for UMengAnalytics."
   s.description  = <<-DESC
-  This repo's version 4.2.5 is up to date with UMengAnalytics offical website version 4.2.4, and
+  This repo's latest version is up to date with UMengAnalytics offical website version 4.2.4, and
   it is an encapsulation for UMengAnalytics, now import the current framework as dynamic framework.
                    DESC
 
@@ -19,8 +19,9 @@ Pod::Spec.new do |s|
   s.author             = { "Arthur" => "archmagees.dev@gmail.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/archmagees/UMengAnalyticsFramework.git", :tag => "#{s.version}"}
-#  s.dependencies   = "UMengAnalytics"
-  s.dependency "UMengAnalytics"
+  s.vendored_frameworks = "vendored_frameworks/*.{framework}"
+  s.frameworks = "UIKit", "CoreTelephony", "SystemConfiguration"
+  s.libraries = "sqlite3", "z"
   s.static_framework = true
 end
 
