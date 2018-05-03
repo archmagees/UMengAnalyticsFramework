@@ -8,16 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED2BA3E209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8ED2BA2C209AADCC00EC5780 /* UMengAnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMengAnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengAnalyticsFramework.h; sourceTree = "<group>"; };
 		8ED2BA30209AADCC00EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED2BA3B209AC00600EC5780 /* UMengAnalyticsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengAnalyticsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengAnalyticsFrameworkTests.m; sourceTree = "<group>"; };
+		8ED2BA3F209AC00600EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8ED2BA28209AADCC00EC5780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2BA38209AC00600EC5780 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				8ED2BA2E209AADCC00EC5780 /* UMengAnalyticsFramework */,
+				8ED2BA3C209AC00600EC5780 /* UMengAnalyticsFrameworkTests */,
 				8ED2BA2D209AADCC00EC5780 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				8ED2BA2C209AADCC00EC5780 /* UMengAnalyticsFramework.framework */,
+				8ED2BA3B209AC00600EC5780 /* UMengAnalyticsFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,6 +63,15 @@
 				8ED2BA30209AADCC00EC5780 /* Info.plist */,
 			);
 			path = UMengAnalyticsFramework;
+			sourceTree = "<group>";
+		};
+		8ED2BA3C209AC00600EC5780 /* UMengAnalyticsFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */,
+				8ED2BA3F209AC00600EC5780 /* Info.plist */,
+			);
+			path = UMengAnalyticsFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +106,23 @@
 			productReference = 8ED2BA2C209AADCC00EC5780 /* UMengAnalyticsFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8ED2BA3A209AC00600EC5780 /* UMengAnalyticsFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED2BA40209AC00600EC5780 /* Build configuration list for PBXNativeTarget "UMengAnalyticsFrameworkTests" */;
+			buildPhases = (
+				8ED2BA37209AC00600EC5780 /* Sources */,
+				8ED2BA38209AC00600EC5780 /* Frameworks */,
+				8ED2BA39209AC00600EC5780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMengAnalyticsFrameworkTests;
+			productName = UMengAnalyticsFrameworkTests;
+			productReference = 8ED2BA3B209AC00600EC5780 /* UMengAnalyticsFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +133,9 @@
 				ORGANIZATIONNAME = archmagees;
 				TargetAttributes = {
 					8ED2BA2B209AADCC00EC5780 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8ED2BA3A209AC00600EC5780 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -111,12 +153,20 @@
 			projectRoot = "";
 			targets = (
 				8ED2BA2B209AADCC00EC5780 /* UMengAnalyticsFramework */,
+				8ED2BA3A209AC00600EC5780 /* UMengAnalyticsFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8ED2BA2A209AADCC00EC5780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2BA39209AC00600EC5780 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,6 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2BA37209AC00600EC5780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED2BA3E209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +360,40 @@
 			};
 			name = Release;
 		};
+		8ED2BA41209AC00600EC5780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2VF64XB7H;
+				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ED2BA42209AC00600EC5780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2VF64XB7H;
+				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +411,15 @@
 			buildConfigurations = (
 				8ED2BA35209AADCC00EC5780 /* Debug */,
 				8ED2BA36209AADCC00EC5780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED2BA40209AC00600EC5780 /* Build configuration list for PBXNativeTarget "UMengAnalyticsFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED2BA41209AC00600EC5780 /* Debug */,
+				8ED2BA42209AC00600EC5780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
