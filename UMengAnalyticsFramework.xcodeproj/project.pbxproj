@@ -18,6 +18,7 @@
 		8ED2BA3B209AC00600EC5780 /* UMengAnalyticsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengAnalyticsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengAnalyticsFrameworkTests.m; sourceTree = "<group>"; };
 		8ED2BA3F209AC00600EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED2BA43209AC35B00EC5780 /* UMengAnalyticsFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = UMengAnalyticsFramework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		8ED2BA22209AADCC00EC5780 = {
 			isa = PBXGroup;
 			children = (
+				8ED2BA43209AC35B00EC5780 /* UMengAnalyticsFramework.podspec */,
 				8ED2BA2E209AADCC00EC5780 /* UMengAnalyticsFramework */,
 				8ED2BA3C209AC00600EC5780 /* UMengAnalyticsFrameworkTests */,
 				8ED2BA2D209AADCC00EC5780 /* Products */,
