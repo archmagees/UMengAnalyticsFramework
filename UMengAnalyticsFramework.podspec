@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
   s.version      = "0.1.0"
   s.summary      = "This is a dynamic framework for UMengAnalytics."
   s.description  = <<-DESC
-  This is a dynamic framework for UMengAnalytics.
+  This is an encapsulation for UMengAnalytics, now import the current framework as dynamic framework.
                    DESC
 
   s.homepage     = "https://github.com/archmagees/UMengAnalyticsFramework"
   s.license      = "MIT"
-  s.author             = { "Arthur" => "email@address.com" }
+  s.author             = { "Arthur" => "archmagees.dev@gmail.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/archmagees/UMengAnalyticsFramework.git", :tag => "#{s.version}"}
   s.vendored_frameworks = "vendored_frameworks/*.{framework}"
