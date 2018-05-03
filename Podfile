@@ -4,6 +4,7 @@ use_frameworks!
 
 target 'UMengAnalyticsFramework' do
   pod 'UMengAnalyticsFramework', :path => './'
+#pod 'UMengAnalytics'
 end
 
 target 'UMengAnalyticsFrameworkTests' do     
