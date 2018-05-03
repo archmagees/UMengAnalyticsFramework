@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EA9BFCE209AE11E008086FF /* UseSwiftModuleRequire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */; };
 		8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ED2BA3E209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */; };
 		8ED2BA49209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */; };
 		8ED2BA4A209AC71B00EC5780 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA46209AC5C700EC5780 /* UIKit.framework */; };
 		8ED2BA4B209AC72B00EC5780 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA44209AC53E00EC5780 /* UMMobClick.framework */; };
@@ -16,11 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EA9BFCC209AE11E008086FF /* UMengAnalyticsFrameworkTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengAnalyticsFrameworkTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSwiftModuleRequire.swift; sourceTree = "<group>"; };
 		8ED2BA2C209AADCC00EC5780 /* UMengAnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMengAnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengAnalyticsFramework.h; sourceTree = "<group>"; };
 		8ED2BA30209AADCC00EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED2BA3B209AC00600EC5780 /* UMengAnalyticsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengAnalyticsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengAnalyticsFrameworkTests.m; sourceTree = "<group>"; };
 		8ED2BA3F209AC00600EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED2BA43209AC35B00EC5780 /* UMengAnalyticsFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = UMengAnalyticsFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8ED2BA44209AC53E00EC5780 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = Pods/UMengAnalytics/umsdk_IOS_analyics_idfa_v4.2.4/UMMobClick.framework; sourceTree = "<group>"; };
@@ -89,8 +90,9 @@
 		8ED2BA3C209AC00600EC5780 /* UMengAnalyticsFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */,
 				8ED2BA3F209AC00600EC5780 /* Info.plist */,
+				8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */,
+				8EA9BFCC209AE11E008086FF /* UMengAnalyticsFrameworkTests-Bridging-Header.h */,
 			);
 			path = UMengAnalyticsFrameworkTests;
 			sourceTree = "<group>";
@@ -184,6 +186,7 @@
 					};
 					8ED2BA3A209AC00600EC5780 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -293,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED2BA3E209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m in Sources */,
+				8EA9BFCE209AE11E008086FF /* UseSwiftModuleRequire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +437,11 @@
 				INFOPLIST_FILE = UMengAnalyticsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -461,7 +468,11 @@
 				INFOPLIST_FILE = UMengAnalyticsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -474,12 +485,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F397447C8297DFFE6BC4EDEC /* Pods-UMengAnalyticsFrameworkTests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2VF64XB7H;
 				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UMengAnalyticsFrameworkTests/UMengAnalyticsFrameworkTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -488,12 +507,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8B749B63513982152C400B1 /* Pods-UMengAnalyticsFrameworkTests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2VF64XB7H;
 				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UMengAnalyticsFrameworkTests/UMengAnalyticsFrameworkTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
