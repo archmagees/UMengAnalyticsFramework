@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		722B1E3BC00EBC703BBBBF6A /* Pods_UMengAnalyticsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62CF191D37D6B1391DDEDC8 /* Pods_UMengAnalyticsFramework.framework */; };
 		8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ED2BA3E209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */; };
+		8ED2BA49209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */; };
+		8ED2BA4A209AC71B00EC5780 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA46209AC5C700EC5780 /* UIKit.framework */; };
+		8ED2BA4B209AC72B00EC5780 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA44209AC53E00EC5780 /* UMMobClick.framework */; };
 		99173F388DB7BAB4CD6035E3 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +22,10 @@
 		8ED2BA3B209AC00600EC5780 /* UMengAnalyticsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengAnalyticsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengAnalyticsFrameworkTests.m; sourceTree = "<group>"; };
 		8ED2BA3F209AC00600EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8ED2BA43209AC35B00EC5780 /* UMengAnalyticsFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = UMengAnalyticsFramework.podspec; sourceTree = "<group>"; };
+		8ED2BA43209AC35B00EC5780 /* UMengAnalyticsFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = UMengAnalyticsFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8ED2BA44209AC53E00EC5780 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = Pods/UMengAnalytics/umsdk_IOS_analyics_idfa_v4.2.4/UMMobClick.framework; sourceTree = "<group>"; };
+		8ED2BA46209AC5C700EC5780 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UMengAnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMengAnalyticsFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62CF191D37D6B1391DDEDC8 /* Pods_UMengAnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMengAnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B749B63513982152C400B1 /* Pods-UMengAnalyticsFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengAnalyticsFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -34,7 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				722B1E3BC00EBC703BBBBF6A /* Pods_UMengAnalyticsFramework.framework in Frameworks */,
+				8ED2BA4B209AC72B00EC5780 /* UMMobClick.framework in Frameworks */,
+				8ED2BA4A209AC71B00EC5780 /* UIKit.framework in Frameworks */,
+				8ED2BA49209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +109,9 @@
 		D45F24CEA1C75348831D0D49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */,
+				8ED2BA46209AC5C700EC5780 /* UIKit.framework */,
+				8ED2BA44209AC53E00EC5780 /* UMMobClick.framework */,
 				E62CF191D37D6B1391DDEDC8 /* Pods_UMengAnalyticsFramework.framework */,
 				95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */,
 			);
@@ -396,14 +406,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMengAnalytics/umsdk_IOS_analyics_idfa_v4.2.4",
+				);
 				INFOPLIST_FILE = UMengAnalyticsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
@@ -418,14 +437,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMengAnalytics/umsdk_IOS_analyics_idfa_v4.2.4",
+				);
 				INFOPLIST_FILE = UMengAnalyticsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Release;
 		};
@@ -436,7 +464,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2VF64XB7H;
 				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,7 +482,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2VF64XB7H;
 				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
