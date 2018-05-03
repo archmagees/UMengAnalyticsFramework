@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722B1E3BC00EBC703BBBBF6A /* Pods_UMengAnalyticsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62CF191D37D6B1391DDEDC8 /* Pods_UMengAnalyticsFramework.framework */; };
 		8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ED2BA3E209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */; };
+		99173F388DB7BAB4CD6035E3 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,12 @@
 		8ED2BA3D209AC00600EC5780 /* UMengAnalyticsFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengAnalyticsFrameworkTests.m; sourceTree = "<group>"; };
 		8ED2BA3F209AC00600EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED2BA43209AC35B00EC5780 /* UMengAnalyticsFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = UMengAnalyticsFramework.podspec; sourceTree = "<group>"; };
+		95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMengAnalyticsFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62CF191D37D6B1391DDEDC8 /* Pods_UMengAnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMengAnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B749B63513982152C400B1 /* Pods-UMengAnalyticsFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengAnalyticsFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB883DA5E90E71C1C77F0AEC /* Pods-UMengAnalyticsFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengAnalyticsFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMengAnalyticsFramework/Pods-UMengAnalyticsFramework.release.xcconfig"; sourceTree = "<group>"; };
+		EE7FD335A37A49243C80EC27 /* Pods-UMengAnalyticsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengAnalyticsFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMengAnalyticsFramework/Pods-UMengAnalyticsFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		F397447C8297DFFE6BC4EDEC /* Pods-UMengAnalyticsFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengAnalyticsFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722B1E3BC00EBC703BBBBF6A /* Pods_UMengAnalyticsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99173F388DB7BAB4CD6035E3 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +56,8 @@
 				8ED2BA2E209AADCC00EC5780 /* UMengAnalyticsFramework */,
 				8ED2BA3C209AC00600EC5780 /* UMengAnalyticsFrameworkTests */,
 				8ED2BA2D209AADCC00EC5780 /* Products */,
+				AD12E8B433802C2D84BDE88A /* Pods */,
+				D45F24CEA1C75348831D0D49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +88,26 @@
 			path = UMengAnalyticsFrameworkTests;
 			sourceTree = "<group>";
 		};
+		AD12E8B433802C2D84BDE88A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE7FD335A37A49243C80EC27 /* Pods-UMengAnalyticsFramework.debug.xcconfig */,
+				EB883DA5E90E71C1C77F0AEC /* Pods-UMengAnalyticsFramework.release.xcconfig */,
+				F397447C8297DFFE6BC4EDEC /* Pods-UMengAnalyticsFrameworkTests.debug.xcconfig */,
+				E8B749B63513982152C400B1 /* Pods-UMengAnalyticsFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D45F24CEA1C75348831D0D49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62CF191D37D6B1391DDEDC8 /* Pods_UMengAnalyticsFramework.framework */,
+				95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +126,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ED2BA34209AADCC00EC5780 /* Build configuration list for PBXNativeTarget "UMengAnalyticsFramework" */;
 			buildPhases = (
+				D923E33D5CC583A47232F515 /* [CP] Check Pods Manifest.lock */,
 				8ED2BA27209AADCC00EC5780 /* Sources */,
 				8ED2BA28209AADCC00EC5780 /* Frameworks */,
 				8ED2BA29209AADCC00EC5780 /* Headers */,
@@ -112,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ED2BA40209AC00600EC5780 /* Build configuration list for PBXNativeTarget "UMengAnalyticsFrameworkTests" */;
 			buildPhases = (
+				31FF390BF9DE0BC138D2E480 /* [CP] Check Pods Manifest.lock */,
 				8ED2BA37209AC00600EC5780 /* Sources */,
 				8ED2BA38209AC00600EC5780 /* Frameworks */,
 				8ED2BA39209AC00600EC5780 /* Resources */,
@@ -176,6 +210,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31FF390BF9DE0BC138D2E480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMengAnalyticsFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D923E33D5CC583A47232F515 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMengAnalyticsFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8ED2BA27209AADCC00EC5780 /* Sources */ = {
@@ -314,6 +387,7 @@
 		};
 		8ED2BA35209AADCC00EC5780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7FD335A37A49243C80EC27 /* Pods-UMengAnalyticsFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -325,11 +399,7 @@
 				INFOPLIST_FILE = UMengAnalyticsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -339,6 +409,7 @@
 		};
 		8ED2BA36209AADCC00EC5780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB883DA5E90E71C1C77F0AEC /* Pods-UMengAnalyticsFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -350,11 +421,7 @@
 				INFOPLIST_FILE = UMengAnalyticsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -364,15 +431,12 @@
 		};
 		8ED2BA41209AC00600EC5780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F397447C8297DFFE6BC4EDEC /* Pods-UMengAnalyticsFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2VF64XB7H;
 				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -381,15 +445,12 @@
 		};
 		8ED2BA42209AC00600EC5780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B749B63513982152C400B1 /* Pods-UMengAnalyticsFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2VF64XB7H;
 				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

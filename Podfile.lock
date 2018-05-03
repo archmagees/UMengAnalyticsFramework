@@ -1,0 +1,24 @@
+PODS:
+  - UMengAnalytics (4.2.4)
+  - UMengAnalyticsFramework (0.0.1):
+    - UMengAnalytics
+
+DEPENDENCIES:
+  - UMengAnalytics
+  - UMengAnalyticsFramework (from `./`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - UMengAnalytics
+
+EXTERNAL SOURCES:
+  UMengAnalyticsFramework:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  UMengAnalyticsFramework: c3885797414df754d6cf0a40a6663bc0710d9505
+
+PODFILE CHECKSUM: 521e0756a2455b6e43ebcc4906431aa1a22024be
+
+COCOAPODS: 1.5.0
