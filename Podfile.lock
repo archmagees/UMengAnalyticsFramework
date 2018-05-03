@@ -1,14 +1,20 @@
 PODS:
+  - Nimble (7.1.1)
+  - Quick (1.3.0)
   - UMengAnalytics (4.2.4)
   - UMengAnalyticsFramework (0.0.1):
     - UMengAnalytics
 
 DEPENDENCIES:
+  - Nimble
+  - Quick
   - UMengAnalytics
   - UMengAnalyticsFramework (from `./`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Nimble
+    - Quick
     - UMengAnalytics
 
 EXTERNAL SOURCES:
@@ -16,9 +22,11 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
+  Nimble: 391f07782af4b37914f9bd7b2ffbb952731b8202
+  Quick: 03278013f71aa05fe9ecabc94fbcc6835f1ee76f
   UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
   UMengAnalyticsFramework: c3885797414df754d6cf0a40a6663bc0710d9505
 
-PODFILE CHECKSUM: 521e0756a2455b6e43ebcc4906431aa1a22024be
+PODFILE CHECKSUM: 14180f5b2aa220393c5fb881225d11bc9e8df73c
 
 COCOAPODS: 1.5.0

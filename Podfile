@@ -8,5 +8,8 @@ end
 
 target 'UMengAnalyticsFrameworkTests' do     
   pod 'UMengAnalyticsFramework', :path => './'
+  
+  pod 'Quick'
+  pod 'Nimble'
 end
 
