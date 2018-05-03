@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DA9EC03449A3178D9E44353 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */; };
 		8EA9BFCE209AE11E008086FF /* UseSwiftModuleRequire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */; };
-		8EA9BFCF209AE45F008086FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA46209AC5C700EC5780 /* UIKit.framework */; };
+		8EA9BFD3209AE6F5008086FF /* MobClickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFD2209AE6F5008086FF /* MobClickSpec.m */; };
 		8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ED2BA49209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */; };
-		8ED2BA4A209AC71B00EC5780 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA46209AC5C700EC5780 /* UIKit.framework */; };
-		8ED2BA4B209AC72B00EC5780 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA44209AC53E00EC5780 /* UMMobClick.framework */; };
-		99173F388DB7BAB4CD6035E3 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8EA9BFCC209AE11E008086FF /* UMengAnalyticsFrameworkTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengAnalyticsFrameworkTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSwiftModuleRequire.swift; sourceTree = "<group>"; };
+		8EA9BFD2209AE6F5008086FF /* MobClickSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobClickSpec.m; sourceTree = "<group>"; };
 		8ED2BA2C209AADCC00EC5780 /* UMengAnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMengAnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengAnalyticsFramework.h; sourceTree = "<group>"; };
 		8ED2BA30209AADCC00EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,8 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED2BA4B209AC72B00EC5780 /* UMMobClick.framework in Frameworks */,
-				8ED2BA4A209AC71B00EC5780 /* UIKit.framework in Frameworks */,
 				8ED2BA49209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,8 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EA9BFCF209AE45F008086FF /* UIKit.framework in Frameworks */,
-				99173F388DB7BAB4CD6035E3 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */,
+				0DA9EC03449A3178D9E44353 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +91,7 @@
 				8ED2BA3F209AC00600EC5780 /* Info.plist */,
 				8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */,
 				8EA9BFCC209AE11E008086FF /* UMengAnalyticsFrameworkTests-Bridging-Header.h */,
+				8EA9BFD2209AE6F5008086FF /* MobClickSpec.m */,
 			);
 			path = UMengAnalyticsFrameworkTests;
 			sourceTree = "<group>";
@@ -255,15 +252,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-				"${PODS_ROOT}/../Carthage/Build/iOS/UMengAnalyticsFramework.framework",
-				"${PODS_ROOT}/../Carthage/Build/iOS/UMengAnalyticsFramework.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UMengAnalyticsFramework.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/UMengAnalyticsFramework.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -302,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA9BFD3209AE6F5008086FF /* MobClickSpec.m in Sources */,
 				8EA9BFCE209AE11E008086FF /* UseSwiftModuleRequire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

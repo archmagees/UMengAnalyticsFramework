@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "UMengAnalyticsFramework"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "This is a dynamic framework for UMengAnalytics."
   s.description  = <<-DESC
   This is a dynamic framework for UMengAnalytics.
@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
   s.author             = { "Arthur" => "email@address.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/archmagees/UMengAnalyticsFramework.git", :tag => "#{s.version}"}
-  s.vendored_frameworks = "Carthage/Build/iOS/*.{framework}"
-  s.dependency "UMengAnalytics"
+  s.vendored_frameworks = "vendored_frameworks/*.{framework}"
+  s.frameworks = "UIKit", "CoreTelephony", "SystemConfiguration"
+  s.libraries = "sqlite3", "z"
 end
 
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
