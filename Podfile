@@ -3,8 +3,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'UMengAnalyticsFramework' do
-  pod 'UMengAnalyticsFramework', :path => './'
-#pod 'UMengAnalytics'
+  pod 'UMengAnalytics'
 end
 
 target 'UMengAnalyticsFrameworkTests' do     
@@ -12,6 +11,5 @@ target 'UMengAnalyticsFrameworkTests' do
   
   pod 'Quick'
   pod 'Nimble'
-
 end
 

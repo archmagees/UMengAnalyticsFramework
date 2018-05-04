@@ -10,14 +10,31 @@
 		0DA9EC03449A3178D9E44353 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */; };
 		8EA9BFCE209AE11E008086FF /* UseSwiftModuleRequire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */; };
 		8EA9BFD3209AE6F5008086FF /* MobClickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFD2209AE6F5008086FF /* MobClickSpec.m */; };
+		8EB1DF4E209BF797008A16A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF4D209BF797008A16A6 /* libz.tbd */; };
+		8EB1DF50209BF7A2008A16A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF4F209BF7A2008A16A6 /* libsqlite3.tbd */; };
+		8EB1DF52209BF7A8008A16A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF51209BF7A8008A16A6 /* SystemConfiguration.framework */; };
+		8EB1DF54209BF7AE008A16A6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF53209BF7AE008A16A6 /* CoreTelephony.framework */; };
+		8EB1DF55209BF7B3008A16A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA46209AC5C700EC5780 /* UIKit.framework */; };
+		8EB1DF57209BF7B9008A16A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF56209BF7B9008A16A6 /* Foundation.framework */; };
+		8EB1DF58209BF7CC008A16A6 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA44209AC53E00EC5780 /* UMMobClick.framework */; };
+		8EB1DF5C209BF8DB008A16A6 /* MobClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB1DF59209BF8DB008A16A6 /* MobClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB1DF5D209BF8DB008A16A6 /* MobClickSocialAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB1DF5A209BF8DB008A16A6 /* MobClickSocialAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB1DF5E209BF8DB008A16A6 /* MobClickGameAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB1DF5B209BF8DB008A16A6 /* MobClickGameAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ED2BA49209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8EA9BFCC209AE11E008086FF /* UMengAnalyticsFrameworkTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengAnalyticsFrameworkTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSwiftModuleRequire.swift; sourceTree = "<group>"; };
 		8EA9BFD2209AE6F5008086FF /* MobClickSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobClickSpec.m; sourceTree = "<group>"; };
+		8EB1DF4D209BF797008A16A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8EB1DF4F209BF7A2008A16A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8EB1DF51209BF7A8008A16A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8EB1DF53209BF7AE008A16A6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8EB1DF56209BF7B9008A16A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EB1DF59209BF8DB008A16A6 /* MobClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		8EB1DF5A209BF8DB008A16A6 /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
+		8EB1DF5B209BF8DB008A16A6 /* MobClickGameAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClickGameAnalytics.h; sourceTree = "<group>"; };
 		8ED2BA2C209AADCC00EC5780 /* UMengAnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMengAnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengAnalyticsFramework.h; sourceTree = "<group>"; };
 		8ED2BA30209AADCC00EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +57,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED2BA49209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework in Frameworks */,
+				8EB1DF58209BF7CC008A16A6 /* UMMobClick.framework in Frameworks */,
+				8EB1DF57209BF7B9008A16A6 /* Foundation.framework in Frameworks */,
+				8EB1DF55209BF7B3008A16A6 /* UIKit.framework in Frameworks */,
+				8EB1DF54209BF7AE008A16A6 /* CoreTelephony.framework in Frameworks */,
+				8EB1DF52209BF7A8008A16A6 /* SystemConfiguration.framework in Frameworks */,
+				8EB1DF50209BF7A2008A16A6 /* libsqlite3.tbd in Frameworks */,
+				8EB1DF4E209BF797008A16A6 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */,
+				8EB1DF59209BF8DB008A16A6 /* MobClick.h */,
+				8EB1DF5B209BF8DB008A16A6 /* MobClickGameAnalytics.h */,
+				8EB1DF5A209BF8DB008A16A6 /* MobClickSocialAnalytics.h */,
 				8ED2BA30209AADCC00EC5780 /* Info.plist */,
 			);
 			path = UMengAnalyticsFramework;
@@ -110,6 +136,11 @@
 		D45F24CEA1C75348831D0D49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8EB1DF56209BF7B9008A16A6 /* Foundation.framework */,
+				8EB1DF53209BF7AE008A16A6 /* CoreTelephony.framework */,
+				8EB1DF51209BF7A8008A16A6 /* SystemConfiguration.framework */,
+				8EB1DF4F209BF7A2008A16A6 /* libsqlite3.tbd */,
+				8EB1DF4D209BF797008A16A6 /* libz.tbd */,
 				8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */,
 				8ED2BA46209AC5C700EC5780 /* UIKit.framework */,
 				8ED2BA44209AC53E00EC5780 /* UMMobClick.framework */,
@@ -127,6 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */,
+				8EB1DF5C209BF8DB008A16A6 /* MobClick.h in Headers */,
+				8EB1DF5D209BF8DB008A16A6 /* MobClickSocialAnalytics.h in Headers */,
+				8EB1DF5E209BF8DB008A16A6 /* MobClickGameAnalytics.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +476,17 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"UMMobClick\"",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -472,6 +517,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"UMMobClick\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

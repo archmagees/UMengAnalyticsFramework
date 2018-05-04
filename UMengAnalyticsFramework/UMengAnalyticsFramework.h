@@ -15,7 +15,5 @@ FOUNDATION_EXPORT double UMengAnalyticsFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char UMengAnalyticsFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UMengAnalyticsFramework/PublicHeader.h>
-#import <UMMobClick/MobClick.h>
-
-
+#import <UMengAnalyticsFramework/MobClick.h>
 

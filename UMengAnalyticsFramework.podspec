@@ -19,10 +19,14 @@ Pod::Spec.new do |s|
   s.author             = { "Arthur" => "archmagees.dev@gmail.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/archmagees/UMengAnalyticsFramework.git", :tag => "#{s.version}"}
+
+# This line should be revealled before submitted to git and push to CocoaPods
   s.vendored_frameworks = "vendored_frameworks/*.{framework}"
-  s.frameworks = "UIKit", "CoreTelephony", "SystemConfiguration"
-  s.libraries = "sqlite3", "z"
-  s.static_framework = true
+
+  # this two lines should NOT be deleted, they are used for build framework
+#  s.frameworks = "UIKit", "CoreTelephony", "SystemConfiguration"
+#  s.libraries = "sqlite3", "z"
+#  s.dependency "UMengAnalytics"
 end
 
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
