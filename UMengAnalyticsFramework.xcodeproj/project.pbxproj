@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0DA9EC03449A3178D9E44353 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */; };
+		1D55688C88B66CF0E0E7EFD2 /* Pods_UMengAnalyticsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */; };
 		8EA9BFCE209AE11E008086FF /* UseSwiftModuleRequire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */; };
 		8EA9BFD3209AE6F5008086FF /* MobClickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFD2209AE6F5008086FF /* MobClickSpec.m */; };
 		8EB1DF4E209BF797008A16A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF4D209BF797008A16A6 /* libz.tbd */; };
@@ -64,6 +65,7 @@
 				8EB1DF52209BF7A8008A16A6 /* SystemConfiguration.framework in Frameworks */,
 				8EB1DF50209BF7A2008A16A6 /* libsqlite3.tbd in Frameworks */,
 				8EB1DF4E209BF797008A16A6 /* libz.tbd in Frameworks */,
+				1D55688C88B66CF0E0E7EFD2 /* Pods_UMengAnalyticsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +288,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${PODS_ROOT}/../vendored_frameworks/UMengAnalyticsFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UMengAnalyticsFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,11 +475,7 @@
 				INFOPLIST_FILE = UMengAnalyticsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -513,11 +513,7 @@
 				INFOPLIST_FILE = UMengAnalyticsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -545,11 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2VF64XB7H;
 				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "UMengAnalyticsFrameworkTests/UMengAnalyticsFrameworkTests-Bridging-Header.h";
@@ -567,11 +559,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2VF64XB7H;
 				INFOPLIST_FILE = UMengAnalyticsFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "UMengAnalyticsFrameworkTests/UMengAnalyticsFrameworkTests-Bridging-Header.h";
