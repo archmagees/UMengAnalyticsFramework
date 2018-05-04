@@ -22,10 +22,6 @@ describe(@"create mob config instance", ^{
 //        expect(mob).to(beTruthy());
 
         [MobClick event:@"123456"];
-        
-        //
-        [MobClick maybeCrash];
-        
     });
 });
 
