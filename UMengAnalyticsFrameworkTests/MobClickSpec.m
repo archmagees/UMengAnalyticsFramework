@@ -19,12 +19,12 @@ describe(@"create mob config instance", ^{
 //
 //        expect(config).to(beTruthy());
 //
-        MobClick *mob = [MobClick new];
-        
 //        expect(mob).to(beTruthy());
 
         [MobClick event:@"123456"];
         
+        //
+        [MobClick maybeCrash];
         
     });
 });

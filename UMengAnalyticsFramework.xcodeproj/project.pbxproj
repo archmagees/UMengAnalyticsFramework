@@ -288,13 +288,15 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-				"${PODS_ROOT}/../vendored_frameworks/UMengAnalyticsFramework.framework",
+				"${PODS_ROOT}/../Carthage/Build/iOS/UMengAnalyticsFramework.framework",
+				"${PODS_ROOT}/../Carthage/Build/iOS/UMengAnalyticsFramework.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UMengAnalyticsFramework.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/UMengAnalyticsFramework.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

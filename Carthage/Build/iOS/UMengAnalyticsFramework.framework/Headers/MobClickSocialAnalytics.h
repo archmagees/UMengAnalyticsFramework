@@ -65,7 +65,7 @@ extern MobClickSocialTypeString const MobClickSocialTypeYxtimeline;          //�
  
  @param platformType 微博平台类型
  @param weiboId 微博id,可以设置为nil
- @param userId 用户id
+ @param usid 用户id
  @param param 微博平台自定义字段，可以设置为nil
  
  @return 微博对象
@@ -105,8 +105,7 @@ typedef void (^MobClickSocialAnalyticsCompletion)(NSDictionary * response, NSErr
  @param weibos UMSocialWeibo对象组成的数组
  @param appKey 友盟appkey
  @param topic 话题，可选，可以设置为nil
- @parma completion 发送完成的事件处理block
- 
+ @param completion 发送完成的事件处理block
  */
 +(void)postWeiboCounts:(NSArray *)weibos appKey:(NSString *)appKey topic:(NSString *)topic completion:(MobClickSocialAnalyticsCompletion)completion;
 @end
