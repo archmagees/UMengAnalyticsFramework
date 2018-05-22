@@ -2,7 +2,7 @@ PODS:
   - Nimble (7.1.1)
   - Quick (1.3.0)
   - UMengAnalytics (4.2.4)
-  - UMengAnalyticsFramework (4.3.1)
+  - UMengAnalyticsFramework (4.4.0)
 
 DEPENDENCIES:
   - Nimble
@@ -24,7 +24,7 @@ SPEC CHECKSUMS:
   Nimble: 391f07782af4b37914f9bd7b2ffbb952731b8202
   Quick: 03278013f71aa05fe9ecabc94fbcc6835f1ee76f
   UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
-  UMengAnalyticsFramework: 105d6680b90cec572ae6d48a10992b7abab19507
+  UMengAnalyticsFramework: 04d32f81e447a2d654e320361cfcb18f6f263caf
 
 PODFILE CHECKSUM: 14180f5b2aa220393c5fb881225d11bc9e8df73c
 

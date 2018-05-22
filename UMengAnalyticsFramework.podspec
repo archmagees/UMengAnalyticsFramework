@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "UMengAnalyticsFramework"
-  s.version      = "4.3.1"
+  s.version      = "4.4.0"
   s.summary      = "This is a dynamic framework for UMengAnalytics."
   s.description  = <<-DESC
   This repo's latest version is up to date with UMengAnalytics offical website version 4.2.4, and
