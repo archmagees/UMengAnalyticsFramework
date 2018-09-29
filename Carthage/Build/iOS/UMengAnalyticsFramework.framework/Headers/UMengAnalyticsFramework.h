@@ -18,4 +18,5 @@ FOUNDATION_EXPORT const unsigned char UMengAnalyticsFrameworkVersionString[];
 #import <UMengAnalyticsFramework/MobClick.h>
 #import <UMengAnalyticsFramework/MobClickGameAnalytics.h>
 #import <UMengAnalyticsFramework/DplusMobClick.h>
+#import <UMengAnalyticsFramework/UMConfigure.h>
 

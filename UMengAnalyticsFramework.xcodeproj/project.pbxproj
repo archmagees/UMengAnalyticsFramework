@@ -14,7 +14,8 @@
 		8EAD8A12215F798100A30D8B /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAD8A11215F798100A30D8B /* UMCommon.framework */; };
 		8EAD8A15215F799000A30D8B /* SecurityEnvSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAD8A13215F799000A30D8B /* SecurityEnvSDK.framework */; };
 		8EAD8A16215F799000A30D8B /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAD8A14215F799000A30D8B /* UTDID.framework */; };
-		8EAD8A18215F7AE800A30D8B /* DplusMobClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAD8A17215F7AE800A30D8B /* DplusMobClick.h */; };
+		8EAD8A18215F7AE800A30D8B /* DplusMobClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAD8A17215F7AE800A30D8B /* DplusMobClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EAD8A1C215F8C3400A30D8B /* UMConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAD8A1A215F8C3400A30D8B /* UMConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EB1DF4E209BF797008A16A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF4D209BF797008A16A6 /* libz.tbd */; };
 		8EB1DF50209BF7A2008A16A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF4F209BF7A2008A16A6 /* libsqlite3.tbd */; };
 		8EB1DF52209BF7A8008A16A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF51209BF7A8008A16A6 /* SystemConfiguration.framework */; };
@@ -38,6 +39,7 @@
 		8EAD8A13215F799000A30D8B /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityEnvSDK.framework; path = Pods/UMCSecurityPlugins/thirdparties/SecurityEnvSDK.framework; sourceTree = "<group>"; };
 		8EAD8A14215F799000A30D8B /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = Pods/UMCSecurityPlugins/thirdparties/UTDID.framework; sourceTree = "<group>"; };
 		8EAD8A17215F7AE800A30D8B /* DplusMobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DplusMobClick.h; sourceTree = "<group>"; };
+		8EAD8A1A215F8C3400A30D8B /* UMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMConfigure.h; sourceTree = "<group>"; };
 		8EB1DF4D209BF797008A16A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8EB1DF4F209BF7A2008A16A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		8EB1DF51209BF7A8008A16A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */,
+				8EAD8A1A215F8C3400A30D8B /* UMConfigure.h */,
 				8EB1DF59209BF8DB008A16A6 /* MobClick.h */,
 				8EB1DF5B209BF8DB008A16A6 /* MobClickGameAnalytics.h */,
 				8EAD8A17215F7AE800A30D8B /* DplusMobClick.h */,
@@ -176,8 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */,
-				8EAD8A18215F7AE800A30D8B /* DplusMobClick.h in Headers */,
 				8EB1DF5C209BF8DB008A16A6 /* MobClick.h in Headers */,
+				8EAD8A18215F7AE800A30D8B /* DplusMobClick.h in Headers */,
+				8EAD8A1C215F8C3400A30D8B /* UMConfigure.h in Headers */,
 				8EB1DF5E209BF8DB008A16A6 /* MobClickGameAnalytics.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
