@@ -3,7 +3,9 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'UMengAnalyticsFramework' do
-  pod 'UMengAnalytics'
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+pod 'UMCAnalytics'
 end
 
 target 'UMengAnalyticsFrameworkTests' do     

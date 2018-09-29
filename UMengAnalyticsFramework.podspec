@@ -7,10 +7,10 @@
 #
 Pod::Spec.new do |s|
   s.name         = "UMengAnalyticsFramework"
-  s.version      = "4.4.0"
-  s.summary      = "This is a dynamic framework for UMengAnalytics."
+  s.version      = "5.5.1"
+  s.summary      = "This is a dynamic framework for UMengAnalytics 5.5.1 version."
   s.description  = <<-DESC
-  This repo's latest version is up to date with UMengAnalytics offical website version 4.2.4, and
+  This repo's latest version is up to date with UMengAnalytics offical website version 5.5.1, and
   it is an encapsulation for UMengAnalytics, now import the current framework as dynamic framework.
                    DESC
 

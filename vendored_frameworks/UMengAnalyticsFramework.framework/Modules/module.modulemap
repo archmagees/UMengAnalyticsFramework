@@ -1,6 +1,0 @@
-framework module UMengAnalyticsFramework {
-  umbrella header "UMengAnalyticsFramework.h"
-
-  export *
-  module * { export * }
-}
