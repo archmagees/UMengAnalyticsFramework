@@ -1,0 +1,9 @@
+{
+  "commitish" : "9c6ead36104907e4ed5817b3096d510085699065",
+  "iOS" : [
+    {
+      "name" : "UMengAnalyticsFramework",
+      "hash" : "12ca1b3ebe2661668178744c09ac58259f3794a2e7eea263a992a19e4e30454f"
+    }
+  ]
+}

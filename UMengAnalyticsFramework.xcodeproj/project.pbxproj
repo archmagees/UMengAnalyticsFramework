@@ -3,32 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0DA9EC03449A3178D9E44353 /* Pods_UMengAnalyticsFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C89DBAB4924456AB12A1FD /* Pods_UMengAnalyticsFrameworkTests.framework */; };
+		8EA40D5922F813B6007EEA03 /* UMConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA40D5722F813B6007EEA03 /* UMConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EA40D5A22F813B6007EEA03 /* MobClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA40D5822F813B6007EEA03 /* MobClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EA40D5C22F817E4007EEA03 /* UMengAnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA40D5B22F817E4007EEA03 /* UMengAnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EA9BFCE209AE11E008086FF /* UseSwiftModuleRequire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */; };
 		8EA9BFD3209AE6F5008086FF /* MobClickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9BFD2209AE6F5008086FF /* MobClickSpec.m */; };
 		8EAD8A10215F797500A30D8B /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAD8A0F215F797500A30D8B /* UMAnalytics.framework */; };
 		8EAD8A12215F798100A30D8B /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAD8A11215F798100A30D8B /* UMCommon.framework */; };
 		8EAD8A15215F799000A30D8B /* SecurityEnvSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAD8A13215F799000A30D8B /* SecurityEnvSDK.framework */; };
 		8EAD8A16215F799000A30D8B /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAD8A14215F799000A30D8B /* UTDID.framework */; };
-		8EAD8A18215F7AE800A30D8B /* DplusMobClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAD8A17215F7AE800A30D8B /* DplusMobClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EAD8A1C215F8C3400A30D8B /* UMConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAD8A1A215F8C3400A30D8B /* UMConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EB1DF4E209BF797008A16A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF4D209BF797008A16A6 /* libz.tbd */; };
 		8EB1DF50209BF7A2008A16A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF4F209BF7A2008A16A6 /* libsqlite3.tbd */; };
 		8EB1DF52209BF7A8008A16A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF51209BF7A8008A16A6 /* SystemConfiguration.framework */; };
 		8EB1DF54209BF7AE008A16A6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF53209BF7AE008A16A6 /* CoreTelephony.framework */; };
 		8EB1DF55209BF7B3008A16A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA46209AC5C700EC5780 /* UIKit.framework */; };
 		8EB1DF57209BF7B9008A16A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1DF56209BF7B9008A16A6 /* Foundation.framework */; };
-		8EB1DF5C209BF8DB008A16A6 /* MobClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB1DF59209BF8DB008A16A6 /* MobClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EB1DF5E209BF8DB008A16A6 /* MobClickGameAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB1DF5B209BF8DB008A16A6 /* MobClickGameAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		965188BBF60233E874F5E3C8 /* Pods_UMengAnalyticsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2BA48209AC71500EC5780 /* Pods_UMengAnalyticsFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EA40D5722F813B6007EEA03 /* UMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMConfigure.h; sourceTree = "<group>"; };
+		8EA40D5822F813B6007EEA03 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		8EA40D5B22F817E4007EEA03 /* UMengAnalyticsFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMengAnalyticsFramework.h; sourceTree = "<group>"; };
 		8EA9BFCC209AE11E008086FF /* UMengAnalyticsFrameworkTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengAnalyticsFrameworkTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		8EA9BFCD209AE11E008086FF /* UseSwiftModuleRequire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSwiftModuleRequire.swift; sourceTree = "<group>"; };
 		8EA9BFD2209AE6F5008086FF /* MobClickSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobClickSpec.m; sourceTree = "<group>"; };
@@ -38,17 +39,12 @@
 		8EAD8A11215F798100A30D8B /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = Pods/UMCCommon/UMCommon.framework; sourceTree = "<group>"; };
 		8EAD8A13215F799000A30D8B /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityEnvSDK.framework; path = Pods/UMCSecurityPlugins/thirdparties/SecurityEnvSDK.framework; sourceTree = "<group>"; };
 		8EAD8A14215F799000A30D8B /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = Pods/UMCSecurityPlugins/thirdparties/UTDID.framework; sourceTree = "<group>"; };
-		8EAD8A17215F7AE800A30D8B /* DplusMobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DplusMobClick.h; sourceTree = "<group>"; };
-		8EAD8A1A215F8C3400A30D8B /* UMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMConfigure.h; sourceTree = "<group>"; };
 		8EB1DF4D209BF797008A16A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8EB1DF4F209BF7A2008A16A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		8EB1DF51209BF7A8008A16A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8EB1DF53209BF7AE008A16A6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		8EB1DF56209BF7B9008A16A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8EB1DF59209BF8DB008A16A6 /* MobClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
-		8EB1DF5B209BF8DB008A16A6 /* MobClickGameAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClickGameAnalytics.h; sourceTree = "<group>"; };
 		8ED2BA2C209AADCC00EC5780 /* UMengAnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMengAnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengAnalyticsFramework.h; sourceTree = "<group>"; };
 		8ED2BA30209AADCC00EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED2BA3B209AC00600EC5780 /* UMengAnalyticsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengAnalyticsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED2BA3F209AC00600EC5780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,11 +113,9 @@
 		8ED2BA2E209AADCC00EC5780 /* UMengAnalyticsFramework */ = {
 			isa = PBXGroup;
 			children = (
-				8ED2BA2F209AADCC00EC5780 /* UMengAnalyticsFramework.h */,
-				8EAD8A1A215F8C3400A30D8B /* UMConfigure.h */,
-				8EB1DF59209BF8DB008A16A6 /* MobClick.h */,
-				8EB1DF5B209BF8DB008A16A6 /* MobClickGameAnalytics.h */,
-				8EAD8A17215F7AE800A30D8B /* DplusMobClick.h */,
+				8EA40D5B22F817E4007EEA03 /* UMengAnalyticsFramework.h */,
+				8EA40D5822F813B6007EEA03 /* MobClick.h */,
+				8EA40D5722F813B6007EEA03 /* UMConfigure.h */,
 				8ED2BA30209AADCC00EC5780 /* Info.plist */,
 			);
 			path = UMengAnalyticsFramework;
@@ -178,11 +172,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED2BA31209AADCC00EC5780 /* UMengAnalyticsFramework.h in Headers */,
-				8EB1DF5C209BF8DB008A16A6 /* MobClick.h in Headers */,
-				8EAD8A18215F7AE800A30D8B /* DplusMobClick.h in Headers */,
-				8EAD8A1C215F8C3400A30D8B /* UMConfigure.h in Headers */,
-				8EB1DF5E209BF8DB008A16A6 /* MobClickGameAnalytics.h in Headers */,
+				8EA40D5A22F813B6007EEA03 /* MobClick.h in Headers */,
+				8EA40D5922F813B6007EEA03 /* UMConfigure.h in Headers */,
+				8EA40D5C22F817E4007EEA03 /* UMengAnalyticsFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +567,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "UMengAnalyticsFrameworkTests/UMengAnalyticsFrameworkTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -596,7 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.archmagees.UMengAnalyticsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "UMengAnalyticsFrameworkTests/UMengAnalyticsFrameworkTests-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
