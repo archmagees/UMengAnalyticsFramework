@@ -304,23 +304,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-				"${PODS_ROOT}/../Carthage/Build/iOS/UMengAnalyticsFramework.framework",
-				"${PODS_ROOT}/../Carthage/Build/iOS/UMengAnalyticsFramework.framework.dSYM",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UMengAnalyticsFramework.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/UMengAnalyticsFramework.framework.dSYM",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UMengAnalyticsFrameworkTests/Pods-UMengAnalyticsFrameworkTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D923E33D5CC583A47232F515 /* [CP] Check Pods Manifest.lock */ = {
